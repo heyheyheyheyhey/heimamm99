@@ -6,7 +6,7 @@
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import HelloWorld from '@/components/HelloWorld.vue'
 
 export default {
   name: 'App',
@@ -25,4 +25,5 @@ export default {
   color: #2c3e50;
   margin-top: 60px;
 }
+@import url('~@/assets/base.css')
 </style>
